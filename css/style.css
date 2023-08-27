@@ -2,8 +2,21 @@
 
 /*................Header...........*/
 .alert-warning {
+    color: #544600;
     background-color:#ffc107 ;
 }
+.logo  {
+   height: 90px;
+    width: 150px;
+   
+}
+
+.name {
+    color: rgba(234, 102, 7, 1);
+}
+
+
+
 hr{
     position: relative;
         top: 20px;
