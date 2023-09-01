@@ -25,3 +25,48 @@ hr{
         background: black;
         margin-bottom: 50px;
 }
+/*................body...........*/
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+.jumbotron{
+    background-color: transparent;
+}
+.overlay  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.about-container{
+    color: #ff7700;
+    background: url("../images/servicing.jpg") no-repeat bottom right fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+}
+
+.reasons-container{
+
+}
+/*................Bottons...........*/
+.btn-cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 100px;
+}
+.btn-org {
+    color: white;
+    background-color: #ff7700;
+   
+}
