@@ -1,30 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 /*................Header...........*/
-.alert-warning {
-    color: #544600;
-    background-color:#ffc107 ;
-}
+
 .logo  {
    height: 90px;
     width: 150px;
    
 }
 
-.name {
-    color: rgba(234, 102, 7, 1);
-}
 
 
 
-hr{
-    position: relative;
-        top: 20px;
-        border: none;
-        height: 5px;
-        background: black;
-        margin-bottom: 50px;
-}
+
 /*................body...........*/
 body {
     font-family: 'Roboto', sans-serif;
@@ -62,8 +49,9 @@ body {
 /*................Bottons...........*/
 .btn-cta {
     font-weight: bold;
-    border-radius: 23px;
+    border-radius: 20px;
     width: 100px;
+    
 }
 .btn-org {
     color: white;
