@@ -3,12 +3,23 @@
 /*................Header...........*/
 
 .logo  {
-   height: 90px;
-    width: 150px;
+   height: 80px;
+    width: 140px;
    
 }
 
-
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    z-index: 1;
+}
+.nav-link {
+   
+    font-weight: bold;
+}
 
 
 
@@ -29,8 +40,10 @@ body {
     background-color: rgba(0, 0, 0, 0.25);
 }
 .about-container{
-    color: #ff7700;
-    background: url("../images/servicing.jpg") no-repeat bottom right fixed;
+    color: black;
+    font-weight: 700;
+    
+    background: url("../images/service3.jpeg") no-repeat bottom right fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -45,6 +58,13 @@ body {
 
 .reasons-container{
 
+}
+.reasons-p {
+    font-weight: 700;
+}
+h4,h3   {
+    color: #ff7700;
+    letter-spacing: 1px;
 }
 /*................Bottons...........*/
 .btn-cta {
