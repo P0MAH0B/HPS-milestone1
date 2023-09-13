@@ -63,7 +63,7 @@ body {
     font-weight: 700;
 }
 h4,h3   {
-    color: #ff7700;
+    color: #e84610;
     letter-spacing: 1px;
 }
 /*................Bottons...........*/
@@ -75,12 +75,21 @@ h4,h3   {
 }
 .btn-org {
     color: white;
-    background-color: #ff7700;
+    background-color: #e84610;
    
 }
 /*------------------------------------Footer*/
-.social-link i {
+.social-link li a i {
     font-size: 30px;
-    color: #ff7700;
-    
+    color: #e84610;
+    text-align: center;
+    padding-left: 25px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+.social-link li a i:hover {
+    color:#525252;
 }
