@@ -12,9 +12,9 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    height: auto;
+    height: 100px;
     background-color: white;
-    z-index: 1;
+    z-index: 2;
 }
 .nav-link {
    
@@ -39,8 +39,13 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.25);
 }
+.about h4{
+    position: relative;
+    z-index: 1;
+    color: white;
+}
 .about-container{
-    color: black;
+     
     font-weight: 700;
     
     background: url("../images/service3.jpeg") no-repeat bottom right fixed;
@@ -63,6 +68,8 @@ body {
     font-weight: 700;
 }
 h4,h3   {
+    position: relative;
+    z-index: 1;
     color: #e84610;
     letter-spacing: 1px;
 }
@@ -98,4 +105,39 @@ h4,h3   {
 }
 .social-link li a i:hover {
     background-color:#e84610;
+}
+footer {
+    padding-top: 25px;
+}
+/*.............Services.........*/
+
+.services-img {
+    background: url("../images/serv-top.jpg") no-repeat bottom right;
+    
+    height:200px ;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.services-content {
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+.services-row {
+    padding-bottom: 25px;
+    color: #525252;
+    font-size: large;
+    letter-spacing: 1px;
+}
+.services-row span {
+    font-weight: 700;
+    color: #e84610;
 }
