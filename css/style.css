@@ -80,10 +80,16 @@ h4,h3   {
 }
 /*------------------------------------Footer*/
 .social-link li a i {
-    font-size: 30px;
-    color: #e84610;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: #525252;
+    padding: 8px 0;
     text-align: center;
-    padding-left: 25px;
+    font-size: 30px;
+    color:  white;    
+    text-align: center;
+    
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -91,5 +97,5 @@ h4,h3   {
 
 }
 .social-link li a i:hover {
-    color:#525252;
+    background-color:#e84610;
 }
