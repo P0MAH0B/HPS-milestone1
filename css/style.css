@@ -40,8 +40,12 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.45);
 }
+.about-hps{
+    margin-top: 5rem !important;
+}
+
 .about h4{
     position: relative;
     z-index: 1;
@@ -64,13 +68,13 @@ body {
 
 }
 
-.reasons-container{
 
-}
 .reasons-p {
     font-weight: 700;
+    color: #525252;
 }
 h4,h3   {
+    
     position: relative;
     z-index: 1;
     color: #e84610;
@@ -164,7 +168,7 @@ footer {
     }
 
 .slogan {
-    margin: 100px;
+    margin: 2rem auto;
     color: #525252;
 }
 .card-text {
