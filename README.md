@@ -16,7 +16,8 @@ This is the  project for Full Stack Software Developement course. I decided to m
 
         1. I want to easily understand the main purpose of the site and learn more about the company.
         2. I want to be able to easily navigate throughout the site to find content.
-        3. I want to look for the services and prices. I also want to locate  social media links to see how trusted and known this company.
+        3. I want to look for the services and prices. 
+        4. I also want to locate  social media links to see how trusted and known this company.
 
   - #### Returning Visitor Goals
 
