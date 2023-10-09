@@ -5,13 +5,12 @@
 
 [View the live project here.](https://p0mah0b.github.io/HPS-milestone1/)
 
-This is the  project for Full Stack Software Developement course. I decided to make my website because it will help me get more clients in my existing carrier. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential visitors and customers.
+This is the  project for Full Stack Software Developement course. I decided to make website for my business because it will help me get more clients in my existing career. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential visitors and customers.
 
 <h2 align="center"><image src="/images/responsive.png"></h2>
 
 ## User Experience (UX)
 
-- ### User stories
 
   - #### First Time Visitor Goals
 
@@ -33,9 +32,12 @@ This is the  project for Full Stack Software Developement course. I decided to m
 - ### Wireframes
 
   - Large screen Wireframe - [About page](/images/About-web.png), [Services Page](/images/serv-web.png)
+  - <image src="/images/About-web.png">
+  - <image src="/images/serv-web.png">
 
   - Mobile Wireframe - [About page](/images/About-phone.png), [Services Page](/images/serv-phone.png)
-
+  - <image src="/images/About-phone.png">
+  - <image src="/images/serv-phone.png">
 ## Features
 
 - Responsive on all device sizes
