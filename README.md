@@ -32,11 +32,11 @@ This is the  project for Full Stack Software Developement course. I decided to m
  
 - ### Wireframes
 
-  - Large screen Wireframe - [About page](/images/About-web.png), [Services Page](/images/serv-web.png)
+  - Large screen Wireframe - [About page](/images/about-web.png), [Services Page](/images/serv-web.png)
   - <image src="/images/About-web.png">
   - <image src="/images/serv-web.png">
 
-  - Mobile Wireframe - [About page](/images/About-phone.png), [Services Page](/images/serv-phone.png)
+  - Mobile Wireframe - [About page](/images/about-phone.png), [Services Page](/images/serv-phone.png)
   - <image src="/images/About-phone.png">
   - <image src="/images/serv-phone.png">
 ## Features
