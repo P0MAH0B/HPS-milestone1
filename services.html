@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  <!-- Navigation -->
     <nav class="navbar px-2 position-fixed navbar-light  navbar-expand-sm">
         <a href="index.html" class="navbar-brand">
             <img src="images/logo3.png" alt="company logo" class="logo">
@@ -31,8 +32,8 @@
             </ul>
         </div>
         <div class="d-none d-md-block">
-            <p class="navbar-text my-auto mr-2"><i>Your peace of mind starts </i></p>
-            <button class="btn btn-cta btn-org" data-toggle="modal" data-target="#freeQuote">HERE!</button>
+            <p class="navbar-text my-auto mr-2"><i>Your peace of mind starts here - </i></p>
+            <button class="btn btn-cta btn-org" data-toggle="modal" data-target="#freeQuote">Free Quote!</button>
         </div>
     </nav>
     <!-----------------------Services----------------------->
@@ -204,6 +205,7 @@
             </div>
         </div>
     </section>
+    <!-- Footer -->
     <footer class="container-fluid text-center">
         <ul class="list-inline social-link">
             <li class="list-inline-item">
@@ -233,6 +235,7 @@
             </li>
         </ul>
     </footer>
+    <!-- Form -->
     <div class="modal" tabindex="-1" id="freeQuote">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -243,17 +246,17 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
+                            <input type="email" class="form-control" id="exampleInputEmail1" name="email"
                                 aria-describedby="emailHelp" required>
                             <div id="emailHelp" class="form-text">Please enter your email for quick communication.
                             </div>
                         </div>
                         <div class="form-floating">
                             <textarea class="form-control" placeholder="Please describe your problem with more details"
-                                id="floatingTextarea" required></textarea>
+                                id="floatingTextarea" name="message" required></textarea>
                             <label for="floatingTextarea">Describe your problem</label>
                         </div>
                         <button type="submit" class="btn btn-cta btn-org">Get a Quote</button>
