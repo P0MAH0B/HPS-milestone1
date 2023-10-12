@@ -170,6 +170,7 @@ footer {
 .slogan {
     margin: 2rem auto;
     color: #e84610;
+    text-transform: capitalize;
 }
 .card-text {
     color: #e84610;
