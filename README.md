@@ -81,11 +81,11 @@ There are 2 versions of each wireframe as one shows the design on a web browser 
 ### Wireframes
 
   - Large screen Wireframe - [About page](/images/about-web.png), [Services Page](/images/serv-web.png)
-  - <image src="/images/About-web.png">
+  - <image src="/images/about-web.png">
   - <image src="/images/serv-web.png">
 
   - Mobile Wireframe - [About page](/images/about-phone.png), [Services Page](/images/serv-phone.png)
-  - <image src="/images/About-phone.png">
+  - <image src="/images/about-phone.png">
   - <image src="/images/serv-phone.png"> 
 
 ## Features
