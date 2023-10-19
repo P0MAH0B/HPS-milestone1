@@ -26,7 +26,8 @@ This is the  project for Full Stack Software Developement course. I decided to m
     - [Languages Used](#languages-used)
     - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
   - [Testing](#testing)
-  - [User Testing](#user-testing)
+    - [Manual Testing](#manual-testing)
+  - [Finished Product](#finished-product)
   - [Deployment](#deployment)
   - [Credits](#credits)
     - [Code](#code)
@@ -93,6 +94,12 @@ There are 2 versions of each wireframe as one shows the design on a web browser 
 - Responsive on all device sizes
 
 - Interactive elements
+- For better UI we added a nav bar - for quick access to all pages.
+  <image src="/images/navbars.png">
+- For quick free quote we added a form.
+  <image src="/images/forms.png">
+- To follow the company we added a social media links we nice hoover effect.
+  <image src="/images/socoallinks.png">
 
 ## Technologies Used
 [Go to the top](#table-of-contents)
@@ -113,7 +120,7 @@ There are 2 versions of each wireframe as one shows the design on a web browser 
 4. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 
-## Testing
+## Testing 
 [Go to the top](#table-of-contents)
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
@@ -121,11 +128,39 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-## User Testing
-- The Website was tested on Google Chrome, Firefox, Internet Explorer, Microsoft Edge and Safari browsers.
-- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone13 Pro, One+11.
-- A large amount of testing was done to ensure that all pages were linking correctly.
+### Manual Testing
+
+- Browser Compatibility
+
+Browser | Expectation | Pass/Fail  
+--- | --- | ---
+Google Chrome | No appearance, responsiveness nor functionality issues.| Pass
+Safari | No appearance, responsiveness nor functionality issues. | Pass
+Mozilla Firefox | No responsiveness nor functionality issues.| Pass
+Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass
+
+- Device compatibility
+
+Device | Expectation | Pass/Fail
+--- | --- | ---
+MacBook Pro 13" | No appearance, responsiveness nor functionality issues. | Pass
+HP Laptop 15" | No appearance, responsiveness nor functionality issues. | Pass
+iPad Pro 12.9" | No appearance, responsiveness nor functionality issues. | Pass
+iPhone 13 Pro Max | No appearance, responsiveness nor functionality issues. | Pass
+
+- A large amount of testing was done to ensure that all pages were linking correctly, all social media links opens in a new tab and form working correctly.
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+  
+## Finished Product
+
+Page / Section | Image
+--- | ---
+Desktop Version | ![Desktop version image](/images/abouts.png)
+Services Section | ![Home section image](/images/servicess.png)
+Contacts Section | ![Feedback popup image](/images/contactss.png)  
+Mobile Version | ![Mobile version image](/images/mobabout.png)
+Services Section | ![Home section image](/images/mobserv.png)
+Contacts Section | ![Feedback popup image](/images/mobcont.png)  
 
 ## Deployment
 
@@ -141,7 +176,7 @@ I used GitHub pages to deploy my final project. To do this I had to:
 8. Select settings.
 9. Select pages on the left menu bar.
 10. Click on the master branch.
-11. This will now generate a link with your website live.
+11. This will now generate a link with your websiPlease find screnn 
 
 ## Credits
 [Go to the top](#table-of-contents)
