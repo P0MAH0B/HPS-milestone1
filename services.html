@@ -10,6 +10,15 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <title>HPS-Heating & Plumbing Solutions</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "0i-rIKj9OgMuReclP",
+            });
+
+        })();
+    </script>
 </head>
 
 <body>
@@ -246,10 +255,10 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
+                    <form onsubmit="return sendMail(this);">
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" name="email"
+                            <input type="email" class="form-control" id="exampleInputEmail1" name="emailaddress"
                                 aria-describedby="emailHelp" required>
                             <div id="emailHelp" class="form-text">Please enter your email for quick communication.
                             </div>
@@ -265,6 +274,7 @@
             </div>
         </div>
     </div>
+    <script src="js/sendEmail.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
